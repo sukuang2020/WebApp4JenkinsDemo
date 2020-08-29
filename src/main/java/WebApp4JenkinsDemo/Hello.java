@@ -10,7 +10,7 @@ public class Hello {
 
     @RequestMapping("/hello")
     public String sayHello(){
-    	//ss 修改返回的字符串的内容cc
-        return "Hello:" + new Date();
+    	//ss 修改返回的字符串的内容
+        return "Hello2:" + new Date();
     }
 }
