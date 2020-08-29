@@ -11,6 +11,12 @@ public class Hello {
     @RequestMapping("/hello")
     public String sayHello(){
     	//修改返回的字符串的内容
-        return "Change by github push 1 : Hello jenkins, " + new Date();
+        return "Hello:" + new Date();
+    }
+	
+    @RequestMapping("/jenkins")
+    public String jenkins(){
+    	//修改返回的字符串的内容
+        return "jenkins:" + new Date();
     }
 }
