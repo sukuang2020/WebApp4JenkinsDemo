@@ -11,6 +11,6 @@ public class Hello {
     @RequestMapping("/hello")
     public String sayHello(){
     	//ss 修改返回的字符串的内容
-        return "Hello7:" + new Date();
+        return "Hello3:" + new Date();
     }
 }
